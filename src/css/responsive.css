@@ -1,0 +1,49 @@
+@media (max-width: 992px) {
+    .secao-com-texto p{
+        padding: 153px 25px;
+    }
+
+    .secao-com-texto p {
+        width: 100%;
+    }
+
+    .secao-com-texto.onde-estamos p {
+        width: 100%;
+    }
+    
+}
+
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 425px) {
+   
+    .cabecalho .logo {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .cabecalho nav {
+        position: static;
+        text-align: center;
+        width: 100%;
+    }
+
+    .cabecalho nav ul li {
+        display: block;  /* Foi usado o block para ficar as opções uma embaixo da outra */
+    }
+
+    .cabecalho nav ul li a{
+        width: 100%;
+        display: block;
+
+    }
+    
+    .painel h2 {
+        font-size: 2.5rem;
+    }
+}
+
+
